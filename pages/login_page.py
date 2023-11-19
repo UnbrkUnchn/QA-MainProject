@@ -65,9 +65,9 @@ class LoginPage(Base):
         with allure.step("Authorization"):
             Logger.add_start_step(method="authorization")
             self.click_login_menu()
-            self.input_login("ilia.konarev38rus@yandex.ru")  # ЛОГИН ДЛЯ ВХОДА
+            self.input_login("***")  # ЛОГИН ДЛЯ ВХОДА
             self.click_sign_in_button()
-            self.input_password("Wh4tH4v3Y0uD0n338rus1")  # ПАРОЛЬ ДЛЯ ВХОДА
+            self.input_password("***")  # ПАРОЛЬ ДЛЯ ВХОДА
             self.click_sign_in_button()
-            self.comparison_word(self.get_assert_text(), result="ЯНДЕКС")  # Сравнение по полю в футере Я.Маркета
+            self.assert_word(self.get_assert_text(), result="ЯНДЕКС")  # Сравнение по полю в футере Я.Маркета
             Logger.add_end_step(url=self.driver.current_url, method="authorization")

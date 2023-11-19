@@ -16,7 +16,7 @@ class Base:
 
     """Метод парсинга для сравнения текстовых значений"""
 
-    def comparison_word(self, word, result):
+    def assert_word(self, word, result):
         value_word = word.text
         assert value_word == result
         print(f"Подтверждение выполнено успешно: \n  - value_word={value_word},\n  - result={result}.")
