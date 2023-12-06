@@ -1,6 +1,4 @@
-# .gitignore - шаблон, взятый с https://github.com/github/gitignore/blob/main/Python.gitignore для общих случаев
-# применения в python projects совместно с git для push без мусорных - лишних директорий и файлов, например
-# таких как директория: __pycache__/
+# .gitignore - шаблон, взят с https://github.com/github/gitignore/blob/main/Python.gitignore
 
 
 # Byte-compiled / optimized / DLL files
