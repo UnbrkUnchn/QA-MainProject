@@ -26,7 +26,7 @@ class Base:
     def get_screenshot(self):
         current_date = datetime.datetime.today().strftime("%d-%m-%y_%H-%M-%S")
         name_screenshot = f"Screenshot_{current_date}.png"
-        self.driver.save_screenshot(f"/home/unbreakunchain/GitProjects/QA/MainProject/screen/{name_screenshot}")
+        self.driver.save_screenshot(f"/home/unbreakunchain/GitProjects/QA-SeleniumProject/screen/{name_screenshot}")
         print(f"Создан Скриншот Страницы: {name_screenshot}")
 
     """Метод Подтверждения URL"""

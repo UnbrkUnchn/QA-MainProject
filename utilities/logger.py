@@ -3,7 +3,7 @@ import os
 
 
 class Logger:
-    file_name = (f"/home/unbreakunchain/GitProjects/QA/MainProject/logs/log_" +
+    file_name = (f"/home/unbreakunchain/GitProjects/QA-SeleniumProject/logs/log_" +
                  str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log")
 
     @classmethod
